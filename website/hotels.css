@@ -1,0 +1,108 @@
+﻿*{
+margin:0px;
+padding:0px;
+}
+
+body{
+       max-width:100%;
+       background-image:url("photos/b7.jpg");
+       background-size:cover;
+background-repeat:no-repeat;
+      }
+
+a{
+     text-decoration:none;
+     color:white;
+     text-transform:uppercase;
+}
+
+ul li{
+	width:20%;
+	margin:2%;
+ padding:3%;
+list-style:none;
+float-left;
+display:inline-block;
+border:1px solid grey;
+font-size:1.5vw;
+font-weight:bold;
+text-shadow:5px 5px 8px black;
+}
+
+h1{
+margin:2%;
+ padding:2%;
+	text-align:center;
+	color:white;
+font-size:3vw;
+text-transform:uppercase;
+}
+
+
+@media (max-width:2000px){
+
+
+
+a{
+     text-decoration:none;
+     color:white;
+     text-transform:uppercase;
+}
+
+ul li{
+	width:30%;
+	margin:5%;
+ padding:2%;
+list-style:none;
+float-left;
+display:inline-block;
+border:1px solid grey;
+font-size:2vw;
+text-align:center;
+}
+
+h1{
+margin:2%;
+ padding:2%;
+	text-align:center;
+	color:white;
+font-size:5vw;
+text-transform:uppercase;
+}
+}
+
+
+
+
+
+
+@media (max-width:500px){
+
+
+a{
+     text-decoration:none;
+     color:white;
+     text-transform:uppercase;
+}
+
+ul li{
+	width:60%;
+	margin:5%;
+ padding:10%;
+list-style:none;
+float-left;
+display:inline-block;
+border:1px solid grey;
+font-size:5vw;
+text-align:center;
+}
+
+h1{
+margin:2%;
+ padding:2%;
+	text-align:center;
+	color:white;
+font-size:6vw;
+text-transform:uppercase;
+}
+}
